@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "media_pages",
+  "info": {
+    "singularName": "media-page",
+    "pluralName": "media-pages",
+    "displayName": "Медиа",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroImages1": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heroImages2": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.seo"
+    }
+  }
+}

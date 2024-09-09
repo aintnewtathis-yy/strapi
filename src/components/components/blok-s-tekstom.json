@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_blok_s_tekstom",
+  "info": {
+    "displayName": "Блок с текстом",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "miniTitle": {
+      "type": "string"
+    },
+    "contentElement": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.smyslovaya-edinicza"
+    }
+  }
+}

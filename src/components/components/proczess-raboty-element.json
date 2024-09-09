@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_components_proczess_raboty_element",
+  "info": {
+    "displayName": "Процесс работы - элемент",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string",
+      "default": "Нейминг",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "default": "Уникальное название вашего бренда/компании, которое транслирует ваши ценности и философию.",
+      "required": true
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

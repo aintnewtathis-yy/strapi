@@ -1,0 +1,57 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "О нас",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "philosophyAbout": {
+      "type": "string",
+      "required": true,
+      "default": "Вам как Себе - наша уникальная философия и подход в создании проектов."
+    },
+    "accordion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.akkordion"
+    },
+    "philosophyAbout2": {
+      "type": "string",
+      "required": true,
+      "default": "Вам как Себе - наша уникальная философия и подход в создании проектов."
+    },
+    "teamMembers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.chlen-komandy"
+    },
+    "heroImages1": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heroImages2": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.seo"
+    }
+  }
+}

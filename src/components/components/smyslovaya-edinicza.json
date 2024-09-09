@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_smyslovaya_edinicza",
+  "info": {
+    "displayName": "Смысловая единица",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "richContent": {
+      "type": "richtext"
+    }
+  }
+}

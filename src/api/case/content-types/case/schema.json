@@ -1,0 +1,78 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cases",
+  "info": {
+    "singularName": "case",
+    "pluralName": "cases",
+    "displayName": "Кейсы",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroImages": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "servicesList": {
+      "displayName": "Список",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.spisok",
+      "max": 5
+    },
+    "client": {
+      "type": "string"
+    },
+    "bigImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "textBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.blok-s-tekstom"
+    },
+    "slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.chlen-komandy"
+    },
+    "textBlock2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.blok-s-tekstom"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.seo"
+    },
+    "title": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.spisok"
+    }
+  }
+}

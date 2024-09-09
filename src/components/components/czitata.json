@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_components_czitata",
+  "info": {
+    "displayName": "Цитата"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "text"
+    }
+  }
+}

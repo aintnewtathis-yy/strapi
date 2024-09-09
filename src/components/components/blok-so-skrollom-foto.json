@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_blok_so_skrollom_foto",
+  "info": {
+    "displayName": "Блок со скроллом фото"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "default": "Вам как Себе - наша уникальная философия и подход в создании проектов.",
+      "required": true
+    },
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

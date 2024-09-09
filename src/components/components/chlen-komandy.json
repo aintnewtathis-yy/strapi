@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_chlen_komandy",
+  "info": {
+    "displayName": "Член команды"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "Антон лазарев",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

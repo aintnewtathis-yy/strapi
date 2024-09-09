@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_components_spisok",
+  "info": {
+    "displayName": "Список",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

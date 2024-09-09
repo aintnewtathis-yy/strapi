@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Главная",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "photoScroll": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.blok-so-skrollom-foto",
+      "required": true
+    },
+    "workProccessStep": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.proczess-raboty-element"
+    },
+    "scrollText": {
+      "type": "string",
+      "required": true
+    },
+    "scrollText2": {
+      "type": "string",
+      "required": true
+    },
+    "heroImages1": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heroImages2": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.seo"
+    }
+  }
+}
