@@ -12,13 +12,8 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "heroImages": {
-      "type": "media",
-      "multiple": true,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+    "title": {
+      "type": "string"
     },
     "thumbnail": {
       "type": "media",
@@ -28,6 +23,9 @@
         "images"
       ]
     },
+    "client": {
+      "type": "string"
+    },
     "servicesList": {
       "displayName": "Список",
       "type": "component",
@@ -35,8 +33,13 @@
       "component": "components.spisok",
       "max": 5
     },
-    "client": {
-      "type": "string"
+    "heroImages": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "bigImage": {
       "type": "media",
@@ -65,9 +68,6 @@
       "type": "component",
       "repeatable": false,
       "component": "components.seo"
-    },
-    "title": {
-      "type": "string"
     },
     "tags": {
       "type": "component",
